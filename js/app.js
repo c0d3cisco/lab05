@@ -50,7 +50,6 @@ Test this function by hand in the console to get it working, and when you think 
 function sumAndMultiply(a, b, c) { //eslint-disable-line
   let sumTotal = sum(sum(a,b)[0],c)[0];
   let mulTotal = multiply(multiply(a,b)[0],c)[0];
-  console.log([sumTotal, mulTotal, `${a} and ${b} and ${c} sum to ${sumTotal}.`,`The product of ${a} and ${b} and ${c} is ${mulTotal}.`]);
   return[sumTotal, mulTotal, `${a} and ${b} and ${c} sum to ${sumTotal}.`,`The product of ${a} and ${b} and ${c} is ${mulTotal}.`];
 }
 
